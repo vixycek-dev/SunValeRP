@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect width="240" height="53" fill="#fff"/>
+  <rect y="53" width="240" height="54" fill="#0039A6"/>
+  <rect y="107" width="240" height="53" fill="#D52B1E"/>
+  <text x="50%" y="50%" font-size="36" font-family="Arial" fill="#000" text-anchor="middle" alignment-baseline="central">RU</text>
+</svg>

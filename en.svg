@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect width="240" height="160" fill="#ffffff"/>
+  <rect width="240" height="160" fill="#00247d"/>
+  <text x="50%" y="50%" font-size="56" font-family="Arial" fill="#fff" text-anchor="middle" alignment-baseline="central">US</text>
+</svg>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout — Alvera Vibrance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Website Only</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="offers.html">Offers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2 id="productName">Checkout</h2>
+      <p id="plan">Plan: —</p>
+      <p id="price">Price: —</p>
+
+      <div style="margin-top:1rem">
+        <button id="payBtn" class="cta">Zaplatit</button>
+      </div>
+
+      <p class="muted" style="margin-top:1rem">Toto je demo platební stránka. Pro skutečné platby integrujte PayPal nebo Stripe.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Website Created by Alvera Services. All rights reserved.</div>
+  </footer>
+
+  <script>
+  (function(){
+    const params = new URLSearchParams(location.search);
+    const product = params.get('product') || 'Product';
+    const plan = params.get('plan') || '';
+    const price = params.get('price') || '';
+    document.getElementById('productName').textContent = product;
+    document.getElementById('plan').textContent = 'Plan: ' + plan;
+    document.getElementById('price').textContent = 'Price: ' + price + '€';
+    document.getElementById('payBtn').addEventListener('click', ()=>{
+      alert('Simulovaná platba: ' + product + ' — ' + plan + ' — ' + price + '€');
+    });
+  })();
+  </script>
+</body>
+</html>

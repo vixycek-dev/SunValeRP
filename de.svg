@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect width="240" height="53" fill="#000"/>
+  <rect y="53" width="240" height="54" fill="#DD0000"/>
+  <rect y="107" width="240" height="53" fill="#FFCE00"/>
+  <text x="50%" y="50%" font-size="40" font-family="Arial" fill="#fff" text-anchor="middle" alignment-baseline="central">DE</text>
+</svg>

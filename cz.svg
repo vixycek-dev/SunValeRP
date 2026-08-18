@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect width="240" height="80" fill="#ffffff"/>
+  <rect y="80" width="240" height="80" fill="#d7141a"/>
+  <polygon points="0,0 120,80 0,160" fill="#11457e"/>
+  <text x="60%" y="50%" font-size="40" font-family="Arial" fill="#fff" text-anchor="middle" alignment-baseline="central">CZ</text>
+</svg>

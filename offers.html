@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Offers — Website Only</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="offers-page">
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Website Only</h1>
+      <nav class="nav" id="nav">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="offers.html" data-i18n="nav_offers">Offers</a>
+        <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+        <div class="lang-container">
+          <button id="langToggle" class="lang-toggle" aria-haspopup="true" aria-expanded="false">
+            <img class="lang-icon" src="en.svg" alt="language"/>
+            <span class="sr-only">Language</span>
+          </button>
+          <ul id="langDropdown" class="lang-dropdown" role="menu" aria-hidden="true">
+            <li data-lang="en"><img class="flag" src="en.svg" alt="US flag"/> English</li>
+            <li data-lang="cz"><img class="flag" src="cz.svg" alt="CZ flag"/> Čeština</li>
+            <li data-lang="es"><img class="flag" src="es.svg" alt="ES flag"/> Español</li>
+            <li data-lang="fr"><img class="flag" src="fr.svg" alt="FR flag"/> Français</li>
+            <li data-lang="de"><img class="flag" src="de.svg" alt="DE flag"/> Deutsch</li>
+            <li data-lang="it"><img class="flag" src="it.svg" alt="IT flag"/> Italiano</li>
+            <li data-lang="pt"><img class="flag" src="pt.svg" alt="PT flag"/> Português</li>
+            <li data-lang="ru"><img class="flag" src="ru.svg" alt="RU flag"/> Русский</li>
+            <li data-lang="zh"><img class="flag" src="zh.svg" alt="CN flag"/> 中文</li>
+            <li data-lang="ja"><img class="flag" src="ja.svg" alt="JP flag"/> 日本語</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2 data-i18n="offers_page_h2">Our Offers</h2>
+      <hr class="divider" />
+      <p data-i18n="offers_page_p">Here are the offers. Click any to learn more.</p>
+
+      <ul class="container offers-list">
+        <li class="offer-card">
+          <h3><span data-i18n="alvera_title">Alvera Vibrance</span> <span class="tag" data-i18n="alvera_tag">VISUAL ENGINE</span></h3>
+          <p class="lead"><strong data-i18n="alvera_tag_inline">VISUAL ENGINE</strong></p>
+
+          <p><strong data-i18n="alvera_general_title">General Information:</strong><br>
+          <span data-i18n="alvera_general_text">Alvera Vibrance is our lightweight visual engine — boost colors, brightness and clarity in any game. Clean overlay UI with presets, profiles, and auto-apply.</span></p>
+
+          <h4 data-i18n="alvera_features_h4">Features:</h4>
+          <ul>
+            <li data-i18n="alvera_feat_1">Brightness, Contrast, Saturation & Hue control</li>
+            <li data-i18n="alvera_feat_2">Full Bright / Night Vision mode</li>
+            <li data-i18n="alvera_feat_3">Presets: Summer, Winter, Desert, Night Vision & Custom</li>
+            <li data-i18n="alvera_feat_4">Saveable profiles</li>
+            <li data-i18n="alvera_feat_5">Custom <strong>Crosshair</strong> overlay</li>
+            <li data-i18n="alvera_feat_6">Fully remappable <strong>Hotkeys</strong></li>
+            <li data-i18n="alvera_feat_7">Auto Apply &amp; Autostart</li>
+          </ul>
+
+          <h4 data-i18n="alvera_pricing_h4">Pricing</h4>
+          <ul>
+            <li><span data-i18n="alvera_price_1_label">1 Day</span>: <strong>0.30€</strong> <a class="buy-btn" href="checkout.html?product=Alvera%20Vibrance&plan=1day&price=0.30" data-i18n="buy">buy</a></li>
+            <li><span data-i18n="alvera_price_2_label">1 Week</span>: <strong>3€</strong> <a class="buy-btn" href="checkout.html?product=Alvera%20Vibrance&plan=1week&price=3" data-i18n="buy">buy</a></li>
+            <li><span data-i18n="alvera_price_3_label">1 Month</span>: <strong>5€</strong> <a class="buy-btn" href="checkout.html?product=Alvera%20Vibrance&plan=1month&price=5" data-i18n="buy">buy</a></li>
+            <li><span data-i18n="alvera_price_4_label">3 Months</span>: <strong>10€</strong> <a class="buy-btn" href="checkout.html?product=Alvera%20Vibrance&plan=3months&price=10" data-i18n="buy">buy</a></li>
+            <li><span data-i18n="alvera_price_5_label">Lifetime</span>: <strong>35€</strong> <a class="buy-btn" href="checkout.html?product=Alvera%20Vibrance&plan=lifetime&price=35" data-i18n="buy">buy</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" data-i18n="footer">© 2026 Website Created by Alvera Services. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

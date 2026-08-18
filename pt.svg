@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect width="240" height="160" fill="#006600"/>
+  <rect x="80" width="160" height="160" fill="#FFCC00"/>
+  <text x="50%" y="50%" font-size="36" font-family="Arial" fill="#fff" text-anchor="middle" alignment-baseline="central">PT</text>
+</svg>
